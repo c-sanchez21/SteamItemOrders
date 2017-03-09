@@ -106,6 +106,12 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\steam-web-api\SteamAPI\SteamAPI.csproj">
+      <Project>{0d3cf668-937c-48a6-a762-53e2b0fc8f8e}</Project>
+      <Name>SteamAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
